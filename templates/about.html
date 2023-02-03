@@ -3,8 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <title>My Website - About</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}" />
 </head>
 <body>
+    <img src="{{url_for('static', filename='AI.jpg')}}" />
     <h1>Mario Thompson</h1>
     <p>I'm optimistic, so I find it extremely difficult to not have a positive outlook on life. A current goal of mine is to become a Web Dev superstar.</p>
 </body>
